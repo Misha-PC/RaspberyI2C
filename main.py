@@ -185,4 +185,5 @@ if __name__ == '__main__':
 
     if len(sys.argv) > 1:
         mylcd.lcd_display_string(sys.argv[1], 1)
-    mylcd.lcd_display_string("Hello World!", 1)
+    else:
+        mylcd.lcd_display_string("Hello World!", 1)
