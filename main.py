@@ -1,4 +1,4 @@
 
 
 if __name__ == '__main__':
-    print("Success!")
+    print("Ok! Let's go!")
